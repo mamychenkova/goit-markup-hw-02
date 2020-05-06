@@ -1,0 +1,27 @@
+.logo-webstudio {
+  font-size: 26px;
+  width: 153px;
+  height: 31px;
+  left: 200px;
+  top: 24px;
+  position: absolute;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 31px;
+  color: #2196f3;
+}
+h1 {
+  position: absolute;
+  width: 646px;
+  left: 477px;
+  top: 280px;
+  color: #922929;
+}
+.header-site {
+  width: 400px;
+  height: 200px;
+  top: 2px;
+  background-color: aqua;
+}
