@@ -45,7 +45,7 @@
     </header>
     <main>
       <!--Герой-->
-      <div class="hero-bord">
+      <div class="hero">
         <section class="hero-section">
           <h1 class="hero-heading">эффективные решения для вашего бизнеса</h1>
           <a href="" class="hero-button">
@@ -64,7 +64,7 @@
               width="65"
               height="70"
             />
-            <h3>Внимание к деталям</h3>
+            <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -73,7 +73,7 @@
           <li>
             <img src="./images/clock.svg" alt="часы" width="67" />
 
-            <h3>Пунктуальность</h3>
+            <h3>ПУНКТУАЛЬНОСТЬ</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -82,7 +82,7 @@
           <li>
             <img src="./images/comp.svg" alt="компьютер" width="70" />
 
-            <h3>Планирование</h3>
+            <h3>ПЛАНИРОВАНИЕ</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -90,7 +90,7 @@
           </li>
           <li>
             <img src="./images/cosmo.svg" alt="космонавт" width="70" />
-            <h3>Современные технологии</h3>
+            <h3>СоОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -100,16 +100,16 @@
       </section>
       <section class="work-examples">
         <h2>Чем мы занимаемся</h2>
-        <ul class="work-examples-list">
+        <ul class="">
           <li>
-            <img
-              src="./images/img1.jpg"
-              alt="ноутбук"
-              width="380"
-              height="294"
-            />
-            <a href="">
-              <h3>Десктопные приложения</h3>
+            <a href=""
+              ><img
+                src="./images/img1.jpg"
+                alt="ноутбук"
+                width="380"
+                height="294"
+              />
+              <h3 class="examples-text">ДЕКСТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
             </a>
           </li>
           <li>
@@ -120,7 +120,7 @@
               height="294"
             />
             <a href="">
-              <h3>Мобильные приложения</h3>
+              <h3 class="examples-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
             </a>
           </li>
 
@@ -132,7 +132,7 @@
               height="294"
             />
             <a href="">
-              <h3>Дизайнерские решения</h3>
+              <h3 class="examples-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
             </a>
           </li>
         </ul>
@@ -149,10 +149,10 @@
             />
             <h3 class="name">John Smith</h3>
             <span class="profession"> Product Designer</span>
-            <ul class="social-link-list">
+            <ul class="sociallink-list">
               <li class="">
                 <div>
-                  <a href=""
+                  <a class="" href=""
                     ><img src="./images/insta1.svg" alt="квадрат" width="20" />
                     <img src="./images/insta2.svg" alt="круг" width="10" />
                     <img src="./images/insta3.svg" alt="точка" width="2"
@@ -199,7 +199,7 @@
             />
             <h3 class="name">Marta Stewart</h3>
             <span class="profession"> Frontend Developer</span>
-            <ul>
+            <ul class="sociallink-list">
               <li>
                 <div>
                   <a href=""
@@ -249,8 +249,8 @@
               height="260"
             />
             <h3>Robert Jakis</h3>
-            <span>Marketing</span>
-            <ul>
+            <span class="profession">Marketing </span>
+            <ul class="sociallink-list">
               <li>
                 <div>
                   <a href=""
@@ -299,8 +299,8 @@
               height="260"
             />
             <h3>Martin Doe</h3>
-            <span> UI Designer</span>
-            <ul>
+            <span class="profession"> UI Designer </span>
+            <ul class="sociallink-list">
               <li>
                 <div>
                   <a href=""
@@ -345,7 +345,7 @@
       </section>
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="klient">
           <li>
             <img src="./images/klienty/logo1.svg" alt="логотип1" width="44" />
           </li>
@@ -367,17 +367,18 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="">
-          <img src="./images/WebStudio.svg" alt="лого Веб Студио" width="129" />
+        <a href="index.html" class="logo-web"> <span>Web</span></a>
+        <a href="index.html" class="logo-studio">
+          <span>Studio</span>
         </a>
-        <address>
+        <span>
           г. Киев, пр-т Леси Украинки, 26
-          <br />
-          info@example.com <br />
+          <br class="email" />
+          info@example.com <br class="telefone" />
           +38 099 111 11 11
-        </address>
+        </span>
       </div>
       <div>
         <b>присоединяйтесь</b>
@@ -387,11 +388,8 @@
               ><img
                 src="./images/insta1wight.svg"
                 alt="инста лого"
-                width="20"
-                <img
-                src="./images/insta2w.svg"
-                alt="круг"
-                width="10" />
+                width="20" />
+              <img src="./images/insta2w.svg" alt="круг" width="10" />
               <img src="./images/insta3w.svg" alt="точка" width="2"
             /></a>
           </li>
