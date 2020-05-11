@@ -65,6 +65,7 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .hero-heading {
   color: #ffffff;
   background-color: tomato;
@@ -76,10 +77,12 @@ ul {
   background-color: #f5f4fa;
   width: 278px;
   height: 120px;
+  color: #212121;
 }
-.advantages > img:hover,
-:focus {
-  color: #2196f3;
+.advantages a :hover,
+.advantages a :focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .advantages h3 {
   font-style: normal;
@@ -145,7 +148,7 @@ h2 {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.sociallink-list img {
+.sociallink-list a {
   color: #333333;
 }
 .sociallink-list a:hover,
@@ -153,12 +156,13 @@ h2 {
   color: #ffffff;
   background-color: #2196f3;
 }
-.klient img {
+.klient a {
   color: #333333;
 }
-.klient img:hover,
+.klient a:hover,
 :focus {
   color: #2196f3;
+  background-color: #ffffff;
 }
 .footer {
   background: #2f303a;
@@ -231,4 +235,7 @@ h2 {
   border-radius: 5px 5px 0px 0px;
   width: 380px;
   height: 294px;
+}
+.link-sub {
+  color: #ffffff;
 }
